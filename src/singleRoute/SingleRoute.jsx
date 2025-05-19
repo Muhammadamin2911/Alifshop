@@ -42,16 +42,20 @@ const SingleRoute = ({ routeSavat, setRouteSavat, likedItems, setLikedItems }) =
   return (
     <div className="singlerout">
       <div className="single-route">
-        <div className="left">
-          {product.thumbnail.map((item, index) => (
-            <div className='left-img' key={index}>
-              <img src={item} alt="thumbnail" />
-            </div>
-          ))}
+        <div className="class">
+          <div className="left">
+
+            {product.thumbnail.map((item, index) => (
+              <div className='left-img' key={index}>
+                <img src={item} alt="thumbnail" />
+              </div>
+            ))}
+          </div>
+          <div className="image">
+            <img src={product.img} alt={product.proName} />
+          </div>
         </div>
-        <div className="image">
-          <img src={product.img} alt={product.proName} />
-        </div>
+
         <div className="reight">
           {product.discount && <div className="chegirma">{product.discount}</div>}
 
@@ -92,7 +96,7 @@ const SingleRoute = ({ routeSavat, setRouteSavat, likedItems, setLikedItems }) =
           </div>
         </div>
       </div>
-      <Brends />
+
     </div>
   );
 };

@@ -127,7 +127,8 @@ h1 {
   font-weight: 600;
   border-radius: 20px;
 }
-.reight .btn .like{
+
+.reight .btn .like {
   width: 80px;
   height: 50px;
   background-color: #eee;
@@ -136,4 +137,86 @@ h1 {
   justify-content: center;
   align-items: center;
   font-size: 25px;
+}
+
+
+@media (max-width: 1400px) {
+  .image {
+    width: 350px !important;
+  }
+}
+
+@media (max-width: 1300px) {
+  .image {
+    width: 300px !important;
+  }
+
+  .left {
+    height: 380px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .image {
+    width: 300px !important;
+  }
+
+  .class {
+    display: flex;
+    flex-direction: column-reverse;
+
+  }
+
+  .left {
+    height: 380px;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .image {
+    width: 300px !important;
+  }
+
+  .class {
+    display: flex;
+    flex-direction: column-reverse;
+
+  }
+
+  .left {
+    height: 380px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .single-route{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .image {
+    width: 300px !important;
+  }
+.price{
+  flex-direction: column;
+}
+  .class {
+    display: flex;
+    flex-direction: column-reverse;
+
+  }
+
+  .left {
+    width: 400px !important;
+    height: 380px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .single-route{
+    flex-direction: column;
+  }
 }
