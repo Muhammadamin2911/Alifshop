@@ -1,0 +1,28 @@
+.headerdata{
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  margin-top: 85px;
+  overflow-x: scroll;
+  scrollbar-color: red;
+  cursor: pointer;
+  scrollbar-width: thin;
+}
+.headerdata p{
+height: 30px;  
+width: 220px;
+text-align: center;
+}
+.katalog_bar{
+  width: auto;
+}
+.headerdata p:hover{
+  border-bottom : 5px solid black;
+  transition: 0.2s;
+}
+
+@media (max-width: 1400px) {
+  .headerdata{
+overflow-x: scroll;  }
+}

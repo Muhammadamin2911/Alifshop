@@ -1,0 +1,608 @@
+.closed {
+  display: none;
+}
+.header{
+  width: 74%;
+  height: 70px;
+  position: fixed;
+  top: -10px;
+  background-color: #fff;
+  z-index: 5;
+}
+.katalog {
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.katalog p {
+  line-height: 15px;
+}
+.savat{
+  position: relative;
+}
+.saralanganlar{
+  position: relative;
+}
+.counter{
+  width: 15px;
+  border-radius: 10px;
+  height: 25px;
+  text-align: center;
+  position: absolute;
+  left: 25px;
+  top: -15px;
+  background-color: orange;
+  }
+.open {
+  position: fixed;
+  top: 100px;
+  width: 1140px;
+  max-width: 1120px;
+  height: 560px;
+  background-color: rgb(241, 241, 241);
+  top: 80px;
+  display: flex;
+  z-index: 1;
+}
+
+.kirish p {
+  display: none;
+}
+
+.katalog_data .katalog_name h3 {
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 250px;
+}
+
+.katalog_data .katalog_name h3:hover {
+  background-color: rgb(255, 217, 0);
+}
+
+.kkk {
+  height: 30px;
+  width: 100%;
+}
+
+.katalog_name {
+  height: 70vh;
+  padding: 20px;
+  width: 300px;
+  overflow-y: scroll;
+}
+
+.katalog_ {
+  position: absolute;
+  height: 500px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  top: 40px;
+}
+
+.katalog_data .katalog_name .katalog_left {
+  width: 300px;
+  font-size: 20px;
+  cursor: pointer;
+  height: 50px;
+
+}
+
+.header .til2 {
+  display: none;
+}
+
+.katalog_cart {
+  position: absolute;
+  left: 260px;
+  top: 5px;
+  padding-left: 60px;
+  max-height: 500px;
+  min-height: 551px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  overflow-y: scroll;
+  grid-template-rows: 33px;
+}
+
+.katalog_cart .cart {
+  width: auto;
+  padding: 0;
+  margin: 0;
+  z-index: 2;
+}
+
+.katalog_cart .cart h1 {
+  width: 200px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+
+.produc h2 {
+  font-size: 12px;
+  font-size: 15px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+.produc h2:hover {
+  color: orange;
+}
+
+.header_bottom {
+  display: none;
+  
+}
+
+
+
+
+
+@media (max-width: 1400px) {
+.header{
+  width: 1000px;
+}
+  .savat p {
+    display: none;
+  }
+
+  .saralanganlar p {
+    display: none;
+  }
+
+  .katalog_data {
+    width: 1000px;
+  }
+
+  .search {
+    width: 300px;
+  }
+
+  .katalog {
+    width: auto;
+    padding: 0;
+    font-size: 20px;
+    padding: 0 15px;
+  }
+
+  .katalog p {
+    width: auto;
+    font-size: 15px;
+
+  }
+
+  .kirish {
+    width: auto;
+    border: none;
+    font-size: 30px;
+  }
+
+  .kirish b {
+    display: none;
+  }
+
+  .kirish p {
+    width: auto;
+    display: block;
+    color: orange;
+  }
+
+}
+
+@media (max-width: 1300px) {
+  .search {
+    width: 200px;
+    gap: 0;
+  }
+.header{
+  width: 900px;
+}
+  .katalog_data {
+    width: 900px;
+  }
+
+  .search .icon {
+    width: 60px;
+  }
+
+  .search input {
+    width: 170px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .search {
+    width: 200px;
+    gap: 0;
+  }
+.header{
+  width: 800px;
+}
+  .katalog_data {
+    width: 800px;
+  }
+
+  .search .icon {
+    width: 60px;
+  }
+
+  .search input {
+    width: 170px;
+  }
+
+  .katalog {
+    width: 60px;
+  }
+
+  .katalog p {
+    display: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  .search {
+    width: 200px;
+    gap: 0;
+  }
+.header{
+  width: 700px;
+}
+  .search .icon {
+    width: 60px;
+  }
+
+  .katalog_data {
+    width: 700px;
+  }
+
+  .katalog_left {
+    font-size: 15px;
+  }
+.til1{
+  display: none;
+}
+ .header .til2 {
+    display: block;
+  }
+  .search input {
+    width: 170px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .search {
+    width: 200px;
+    gap: 0;
+  }
+.header{
+  width: 600px;
+}
+  .katalog_data {
+    width: 600px;
+  }
+.katalog_name{
+  height: 480px;
+}
+  .search .icon {
+    width: 60px;
+  }
+
+  .search input {
+    width: 170px;
+  }
+
+  .header .til1 {
+    display: none;
+  }
+
+  .header .til2 {
+    display: block;
+  }
+}
+
+@media (max-width: 900px) {
+  .search {
+    width: 400px;
+    gap: 0;
+  }
+.header{
+  width: 501px;
+}
+  .logo {
+    display: none;
+  }
+
+  .kirish {
+    display: none;
+  }
+.savat{
+  display: none;
+}
+.saralanganlar{
+  display: none;
+}
+  .til2 {
+    display: none !important;
+  }
+
+  .katalog_data {
+    width: 500px;
+  }
+
+  .search .icon {
+    width: 60px;
+  }
+
+  .header_bottom {
+    display: block;
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    padding: 0px 20%;
+    height: 50px;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 1;
+    border-top: 2px solid orange;
+    background-color: #ffffff;
+  }
+
+  .search input {
+    width: 300px;
+  }
+
+  .logo {
+    width: 80px;
+  }
+  
+  .header_bottom .icon {
+    font-size: 35px;
+    margin-top: 10px;
+    position: relative;
+  }
+    .header_bottom .icon .counter{
+      font-size: 18px;
+    }
+  .katalog_name{
+    width: 220px;
+    height: 480px;
+  }
+  .katalog_name h3{
+    width: 200px !important;
+    font-size: 15px !important;
+  }
+  .katalog_cart{
+    padding-left: 10px !important;
+  }
+  .footer2{
+    padding: 20px 200px !important;
+    justify-content: center;
+  }
+  .header_top{
+    justify-content: center !important;
+  }
+  .footer{
+    padding: 20px 130px !important;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .header{
+    width: 500px;
+  }
+  .search {
+    width: 400px;
+    gap: 0;
+  }
+ 
+  .search .icon {
+    width: 60px;
+  }
+
+  .katalog_data {
+    width: 480px;
+  }
+
+  .search .icon {
+    width: 60px;
+  }
+
+  .katalog_cart {
+    margin-left: -50px;
+  }
+
+  .search input {
+    width: 120px;
+  }
+
+  .katalog_left {
+    width: 200px !important;
+  }
+
+  .katalog_left h3 {
+    width: 200px !important;
+    font-size: 15px !important;
+  }
+
+  .katalog_name {
+    width: 230px;
+    height: 450px;
+
+  }
+
+  .search input {
+    width: 150px;
+  }
+  .footer2{
+    padding: 20px 200px !important;
+    justify-content: center;
+  }
+  .header_top{
+    justify-content: center !important;
+  }
+  .footer{
+    padding: 20px 130px !important;
+    gap: 30px;
+  }
+  .katalog_cart{
+    padding-left: 40px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .search {
+    width: 400px;
+    gap: 0;
+  }
+ .header{
+  width: 531px;
+}
+  .katalog_data {
+    width: 530px;
+  }
+
+  .search .icon {
+    width: 60px;
+  }
+
+  .search input {
+    width: 120px;
+  }
+.katalog_cart{
+  padding-left: 40px !important;
+}
+  .katalog_left {
+    width: 200px !important;
+  }
+
+  .katalog_left h3 {
+    width: 200px !important;
+    font-size: 15px !important;
+  }
+
+  .katalog_name {
+    width: 230px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 600px) {
+  .search {
+    width: 350px;
+    gap: 0;
+  }
+  .header{
+  width: 441px;
+}
+  .katalog_data {
+    width: 450px;
+  }
+
+  .katalog_left {
+    width: 200px !important;
+  }
+
+  .katalog_left h3 {
+    width: 200px !important;
+    font-size: 15px !important;
+  }
+
+  .katalog_name {
+    width: 230px;
+  }
+
+  .katalog_cart {
+    padding-left: 30px !important;
+  }
+
+  .cart h1 {
+    font-size: 18px !important;
+  }
+
+  .produc h2 {
+    width: 180px;
+    font-size: 12px !important;
+  }
+
+  .search .icon {
+    width: 60px;
+  }
+
+  .search input {
+    width: 120px;
+  }
+  .footer2{
+    padding: 20px 150px !important;
+  }
+  .footer{
+    padding: 20px 130px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .search {
+    width: 300px;
+    height: 35px;
+    gap: 0;
+  }
+   .header{
+  width: 401px;
+}
+  .katalog_data {
+    width: 380px;
+  }
+
+  .katalog_left {
+    width: 200px !important;
+  }
+
+  .katalog_left h3 {
+    width: 170px !important;
+    font-size: 15px !important;
+  }
+
+  .katalog_name {
+    width: 200px;
+    height: 400px;
+  }
+
+  .katalog_cart {
+    margin-left: -40px;
+    height: 400px;
+    padding-top: 20px;
+    padding-left: 0px !important;
+    overflow-y: scroll;
+  }
+
+  .cart h1 {
+    width: 150px !important;
+    font-size: 18px !important;
+  }
+
+  .produc h2 {
+    width: 150px;
+    font-size: 12px !important;
+  }
+
+  .search .icon {
+    width: 60px;
+    height: 35px;
+  }
+
+  .search input {
+    width: 120px;
+  }
+  .footer2{
+    padding: 20px 130px !important;
+  }
+  .footer{
+    padding: 20px 130px !important;
+  }
+}

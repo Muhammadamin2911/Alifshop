@@ -1,0 +1,28 @@
+
+.brends{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.brends .brend .image{
+  width: 120px;
+  height: 120px;
+  border: 1px solid blue;
+  padding: 0;
+  border-radius: 20px;
+}
+.brends .brend .image img{
+  border-radius: 20px;
+}
+.brends .brend {
+  width: 130px;
+  height: 130px;
+  display: flex;
+  flex-direction: column ;
+  margin-top: 30px;
+
+}
+
+  .brends .brend h2{
+    text-align: center;
+  }

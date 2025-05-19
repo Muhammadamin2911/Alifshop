@@ -1,0 +1,68 @@
+.like-page{
+  display: flex;
+  flex-direction: column;
+}
+.like-page h1{
+font-size: 30px;}
+.like-page .product{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.like-item{
+  display: inline-block;
+  width: 200px;
+  border: 1px solid orange;
+  padding: 15px;
+  position: relative;
+  border-radius: 20px;
+}
+.like-item .heart{
+  top: 15px;
+  right: 15px;
+  position: absolute;
+}
+
+.like-item h2{
+  font-size: 12px;
+}
+.like-item .krid{
+  font-size: 12px;
+  border-radius: 10px;
+  border: 1px solid orange;
+  padding: 2px 15px;
+  background-color: #ffedc2;
+  margin-top: 10px;
+}
+.like-item .krid p{
+  color: #000;
+}
+
+.like-item s{
+  color: #aaa;
+}
+.like-item p{
+  color: red;
+}
+.like-item .discount{
+  background-color: red;
+  width: 50px;
+  border-radius: 15px;
+  justify-content: center;
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+}
+.like-item .savat{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 120px;
+  height: 40px;
+  background-color: orange;
+  border-radius: 12px;
+  margin: 10px;
+  padding: 14px;
+}

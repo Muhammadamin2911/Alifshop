@@ -1,0 +1,139 @@
+h1 {
+  color: black;
+}
+
+.left {
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.left .left-img {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid orange;
+  width: 120px;
+  border-radius: 20px;
+  height: 120px;
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left .left-img img {
+  width: 70px;
+  height: 100px;
+}
+
+.single-route {
+  display: flex;
+  margin-top: 50px;
+}
+
+.image {
+  width: 500px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reight {
+  width: 480px;
+  padding-left: 30px;
+}
+
+.reight h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.chegirma {
+  width: 80px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.price {
+  margin-top: 20px;
+  display: flex;
+}
+
+.price .discount p {
+  font-size: 15px;
+  color: #888;
+}
+
+.price .discoun b span {
+  font-size: 25px;
+}
+
+.price .narx {
+  margin-left: 20px;
+}
+
+.price .narx b {
+  color: #888;
+}
+
+.price .narx p {
+  font-size: 25px;
+  color: red;
+  font-weight: 600;
+}
+
+.reight .limit {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(48, 189, 48);
+  padding: 20px;
+  align-items: center;
+  color: #fff;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.reight .limit b {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.reight .btn {
+  display: flex;
+  margin-top: 30px;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reight .btn .savat {
+  width: 350px;
+  height: 50px;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 20px;
+}
+.reight .btn .like{
+  width: 80px;
+  height: 50px;
+  background-color: #eee;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}

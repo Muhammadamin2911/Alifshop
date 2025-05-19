@@ -1,0 +1,151 @@
+.footer {
+  width: 100%;
+  display: flex;
+  background-color: rgb(237, 237, 237);
+  height: 300px;
+  margin-top: 200px;
+  padding: 0 200px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer .phone {
+  width: 400px;
+  height: 400px;
+  margin-top: -100px;
+}
+
+.footer .text {
+  width: 250px;
+  text-align: start;
+}
+
+.footer .text h1 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.footer .text .app {
+  display: flex;
+  gap: 10px;
+}
+
+.footer .text .app img {
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.footer .qrcode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  text-align: center;
+}
+
+.footer .qrcode img {
+  width: 100px;
+}
+@media (max-width: 1400px) {
+  .footer {
+    width: 1400px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer .phone {
+    width: 300px;
+    height: 300px;
+    margin-top: -150px;
+  }
+
+  .footer .text {
+    width: 250px;
+    padding: 20px;
+  }
+
+  .footer .text .app {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+  .footer .text h1,
+  p {
+    width: 280px;
+  }
+}
+@media (max-width: 1300px) {
+  .footer {
+    width: 1300px;
+    margin-top: 150px;
+  }
+}
+@media (max-width: 1200px) {
+  .footer {
+    width: 1200px;
+    margin-top: 150px;
+  }
+}
+@media (max-width: 1100px) {
+  .footer {
+    width: 1100px;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .text .app{
+
+display: flex;
+  }
+}
+@media (max-width: 1000px) {
+  .footer {
+    width: 1000px;
+    margin-top: 150px;
+  }
+}
+@media (max-width: 900px) {
+  .footer {
+    width: 900px;
+    margin-top: 150px;
+  }
+}
+@media (max-width: 800px) {
+  .footer {
+    width: 800px;
+    margin-top: 150px;
+  }
+}
+@media (max-width: 700px) {
+  .footer {
+    width: 700px;
+    margin-top: 150px;
+  }
+}
+@media (max-width: 600px) {
+  .footer {
+    width: 600px;
+    margin-top: 150px;
+  }
+}
+@media (max-width: 500px) {
+  .footer {
+    width: 500px;
+    margin-top: 150px;
+  }
+}
+
+
+
+
+
+
+
+
+
+

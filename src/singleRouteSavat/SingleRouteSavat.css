@@ -1,0 +1,335 @@
+.savat-page b {
+  display: flex;
+  justify-content: center;
+  color: red;
+  font-size: 30px;
+  width: 200px;
+  margin-left: 40%;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-top: 30px;
+  font-weight: 400;
+}
+
+.savat-page .name {
+  font-size: 40px;
+  font-family: serif;
+}
+
+.savat-page {
+  display: flex;
+}
+
+.savat-page .left {
+  height: auto;
+  width: 800px;
+  overflow: hidden;
+}
+
+.savat-page .reight {
+  width: 200px;
+}
+
+.savat-item {
+  margin-top: 40px;
+  display: flex;
+  gap: 30px;
+}
+
+.savat-item img {
+  width: 180px;
+  height: 180px;
+}
+
+.savat-item h2 {
+  font-weight: 700;
+  width: 400px;
+}
+
+.savat-item p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.savat-item .delete {
+  display: flex;
+  border: 2px solid orange;
+  margin-left: 400px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.savat-item hr {
+  margin-top: 20px;
+}
+
+.savat-item .counter {
+  display: flex;
+  width: 100px;
+  gap: 20px;
+}
+
+.savat-item .counter .text {
+  margin-right: 30px;
+}
+
+.savat-item .counter button {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid orange;
+  padding: 15px;
+}
+
+.quantity-controls {
+  margin-top: 30px;
+}
+
+.quantity-controls button {
+  width: 30px;
+  height: 30px;
+  border: 2px solid orange;
+  border-radius: 10px;
+}
+
+.total-sum {
+  width: 250px;
+  height: 200px;
+  margin-left: 20%;
+  margin-top: 160px;
+  border-radius: 30px;
+  padding: 20px;
+  position: sticky;
+  top: 100px;
+  text-align: center;
+  border: 2px solid orange;
+}
+
+.total-sum button {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 50px;
+  background-color: orange;
+}
+
+@media (max-width: 1400px) {
+  .savat-page {
+    width: 900px !important;
+  }
+}
+
+@media (max-width: 1300px) {
+  .savat-page {
+    width: 800px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .savat-page {
+    width: 700px !important;
+  }
+
+  .repo {
+    width: 300px;
+  }
+
+  .repo h2 {
+    width: 280px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .savat-page {
+    width: 600px !important;
+  }
+
+  .repo {
+    width: 250px !important;
+  }
+
+  .repo h2 {
+    width: 190px !important;
+  }
+
+  .repo p {
+    font-size: 18px;
+  }
+
+  .repo .delete {
+   margin-left: 105px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .savat-page {
+    flex-direction: column;
+    width: 600px !important;
+    align-items: center;
+  }
+
+  .reight {
+    width: 300px !important;
+
+  }
+
+  .total-sum {
+    margin: 100px 0;
+  }
+
+  .left {
+    width: 600px !important;
+  }
+
+  .left b {
+    margin: 20px 34%;
+  }
+}
+
+@media (max-width: 900px) {
+  .savat-page {
+    width: 500px !important;
+  }
+
+  .left {
+    width: 500px !important;
+  }
+
+  .savat-item h2 {
+    width: 300px;
+  }
+
+  .left b {
+    margin: 20px 34%;
+  }
+}
+
+@media (max-width: 800px) {
+  .savat-page {
+    width: 460px !important;
+  }
+
+  .left {
+    width: 460px !important;
+  }
+
+  .savat-item h2 {
+    width: 200px;
+  }
+
+  .savat-item p {
+    font-size: 15px;
+  }
+
+  .left b {
+    margin: 20px 34%;
+  }
+}
+
+@media (max-width: 700px) {
+  .savat-page {
+    width: 480px !important;
+  }
+
+  .left {
+    width: 480px !important;
+  }
+
+  .repo {
+    width: 300px;
+  }
+
+  .repo hr {
+    margin: 0;
+  }
+
+  .savat-item h2 {
+    width: 280px;
+  }
+
+  .left b {
+    margin: 20px 30%;
+  }
+}
+
+@media (max-width: 600px) {
+  .savat-page {
+    width: 480px !important;
+  }
+
+  .savat-page hr {
+    width: 420px;
+  }
+
+  .left {
+    width: 480px !important;
+  }
+
+  .repo {
+    width: 300px;
+  }
+
+  .left b {
+    margin: 20px 24%;
+  }
+
+  .repo hr {
+    width: 420px;
+    margin-top: 10px;
+  }
+
+  .savat-item {
+    width: 420px;
+    flex-direction: column;
+  }
+
+  .repo .delete {
+    margin-left: 300px;
+  }
+
+  .savat-item h2 {
+    width: 280px;
+  }
+}
+
+@media (max-width: 500px) {
+  .savat-page {
+    width: 380px !important;
+  }
+
+  .savat-page hr {
+    width: 420px;
+  }
+
+  .left {
+    width: 350px !important;
+  }
+
+  .left b {
+    margin: 20px 22%;
+  }
+
+  .repo {
+    width: 360px;
+  }
+
+  .repo hr {
+    width: 350px;
+    margin-top: 10px;
+  }
+
+  .savat-item {
+    width: 380px;
+    flex-direction: column;
+  }
+
+  .repo .delete {
+    margin-left: 250px;
+  }
+
+  .savat-item h2 {
+    width: 280px;
+  }
+}

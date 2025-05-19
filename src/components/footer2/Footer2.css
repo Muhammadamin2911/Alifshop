@@ -1,0 +1,152 @@
+.footer2{
+  width: 100%;
+  background-color: #24272c;
+  height: 400px;
+  padding: 30px 200px;
+}
+.footer2 .header_top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer2 .header_top .box{
+  display: flex;
+  flex-direction: column;
+}
+.footer2 .header_top .box p{
+  color: gray;
+}
+.footer2 .header_top .box a{
+  margin-top: 12px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+.footer2 .header_top .box a:hover{
+  color: orange;
+}
+.footer2 .header_top .box .icon{
+  display: flex;
+  gap: 20px;
+  background-color: #24272c;
+  margin-top: 30px;
+}
+.footer2 .header_top .box .icon img{
+  width: 35px;
+  height: 35px;
+  background-color: #24272c;
+  border-radius: 12px;
+}
+.footer2 .header_top .box .phon{
+  margin-top: 50px;
+}
+.footer2 hr{
+  margin-top: 25px;
+  color: gray;
+}
+.footer2 p{
+  color: gray;
+  font-size: 20px;
+  margin-top: 20px;
+}
+@media (max-width: 1400px) {
+  .footer2 {
+    width: 1400px;
+    height: auto;
+  }
+  .header_top{
+    flex-wrap: wrap;  
+    }
+}
+@media (max-width: 1300px) {
+  .footer2 {
+    width: 1300px;
+    height: auto;
+  }
+  .header_top{
+flex-wrap: wrap;  
+}
+}
+@media (max-width: 1200px) {
+  .footer2 {
+    width: 1200px;
+    height: auto;
+  }
+  .header_top{
+flex-wrap: wrap;  
+}
+}
+@media (max-width: 1100px) {
+  .footer2 {
+    width: 1100px;
+    height: auto;
+  }
+  .header_top{
+flex-wrap: wrap;  
+}
+}
+@media (max-width: 1000px) {
+  .footer2 {
+    width: 1000px;
+    height: auto;
+  }
+  .header_top{
+flex-wrap: wrap;  
+}
+}
+@media (max-width: 900px) {
+  .footer2 {
+    width: 900px;
+    height: auto;
+  }
+  .header_top{
+flex-wrap: wrap;  
+}
+}
+
+@media (max-width: 900px) {
+  .footer2 {
+    width: 900px;
+    height: auto;
+
+}
+}
+
+@media (max-width: 800px) {
+  .footer2 {
+    width: 800px;
+    height: auto;
+
+}
+}
+
+@media (max-width: 700px) {
+  .footer2 {
+    width: 700px;
+    height: auto;
+
+}
+}
+
+@media (max-width: 600px) {
+  .footer2 {
+    width: 600px;
+    height: auto;
+
+}
+}
+
+@media (max-width: 500px) {
+  .footer2 {
+    width: 500px;
+    height: auto;
+
+}
+}
+
+
+
+
+
+
+
